@@ -1,0 +1,24 @@
+.page_not_found_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #ebe9e9;
+  gap: 8px;
+}
+.page_not_found_container > h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+.page_not_found_container > h2 {
+  color: orangered;
+  font-size: 2.5rem;
+}
+.reload_icon {
+  cursor: pointer;
+}
+.page_not_found_link {
+  text-decoration: none;
+  color: #1b1b1b;
+}

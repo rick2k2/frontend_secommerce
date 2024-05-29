@@ -1,0 +1,46 @@
+.men_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.link_of_all_products {
+  color: #1b1b1b;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.men_container > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  border-bottom: 1px solid #1b1b1b;
+  text-transform: uppercase;
+}
+.men_tshirt_container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.single_men_product {
+  flex-direction: column;
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+  transition: 0.8s ease-in-out;
+}
+.single_men_product:hover {
+  box-shadow: 2px 3px 20px #333;
+}
+.single_men_product > img {
+  width: 200px;
+  height: 250px;
+}

@@ -1,0 +1,27 @@
+.contact_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+.up {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up img {
+  width: 150px;
+  height: 60px;
+}
+.down ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.down ul li {
+  list-style: none;
+}

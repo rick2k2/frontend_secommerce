@@ -1,0 +1,31 @@
+.kid_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.kid_container > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  border-bottom: 1px solid #1b1b1b;
+  text-transform: uppercase;
+}
+.kid_tshirt_container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.single_kid_product {
+  flex-direction: column;
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+}
+.single_kid_product > img {
+  width: 200px;
+  height: 250px;
+}

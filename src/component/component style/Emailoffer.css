@@ -1,0 +1,34 @@
+.email_offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-image: linear-gradient(rgb(251, 182, 251), white);
+  gap: 20px;
+}
+
+.email_offer > h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.email_offer > p {
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #727171;
+}
+
+.input_container > input {
+  padding: 10px 60px;
+  font-size: 1.2rem;
+}
+.subscribe_btn {
+  padding: 11px 20px;
+  font-size: 1.2rem;
+  border-radius: 0px;
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}

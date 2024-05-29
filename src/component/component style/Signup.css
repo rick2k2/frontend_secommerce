@@ -1,0 +1,47 @@
+.signup_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgb(246, 172, 246);
+}
+.signup_field {
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  background: #fff;
+  height: 60%;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.signup_field > input {
+  padding: 6px 40px;
+  font-size: 1.1rem;
+}
+.signup_field > p {
+  font-size: 0.9rem;
+}
+.continue_btn_signup {
+  padding: 10px 120px;
+  color: #fff;
+  background: orangered;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.account_login_txt {
+  color: orangered;
+}
+.radio_check_signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.radio_check_signup > input {
+  position: relative;
+}
+.side_text_of_radio_signup {
+  font-size: 0.9rem;
+}

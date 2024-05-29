@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background: rgb(244, 242, 242);
+}
+.Logo {
+  height: 50px;
+  cursor: pointer;
+}
+img {
+  width: 120px;
+  height: 100px;
+}
+.Header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 50px;
+}
+
+.Header ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.link_txt {
+  text-decoration: none;
+  color: #1b1b1b;
+  transition: 0.8s ease-in-out;
+}
+.link_txt:hover {
+  border-bottom: 2px solid orangered;
+}
+.btn_container {
+  display: flex;
+  width: 15%;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  border: 1px solid #1b1b1b;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 8px 30px;
+  color: #1b1b1b;
+}
+.login_txt {
+  text-decoration: none;
+  color: #1b1b1b;
+  transition: 0.8s ease-in-out;
+}
+.login_txt:hover {
+  color: orangered;
+}
+.cart {
+  border: none;
+  background: none;
+}
+.cart_txt {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+.cart_icon_number {
+  color: #fff;
+  background: orangered;
+  font-size: 1rem;
+  padding: 1px 5px;
+  border-radius: 50px;
+  position: relative;
+  top: -22px;
+  left: -8px;
+}

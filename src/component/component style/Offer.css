@@ -1,0 +1,59 @@
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(244, 165, 137, 0.838),
+    white
+  );
+  width: 100%;
+  height: 250px;
+  position: relative;
+  left: -30px;
+  top: -30px;
+}
+.offer_left {
+  width: 600px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.offer_left > h1 {
+  font-size: 3rem;
+  color: orangered;
+}
+
+.offer_left > p {
+  font-size: 1.4rem;
+}
+.time_txt {
+  color: orangered;
+}
+.explore_btn {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: orangered;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.offer_right {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+.offer_right > img {
+  width: 100%;
+  height: 100%;
+}
