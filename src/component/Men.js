@@ -20,56 +20,56 @@ function Men() {
           <img src={m1} alt="m1" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m2} alt="m2" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m3} alt="m3" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_women_product">
           <img src={m4} alt="m4" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m5} alt="m5" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m6} alt="m6" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m7} alt="m7" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
         <div className="single_men_product">
           <img src={m8} alt="m8" />
           <p>Good Quality Product</p>
           <p className="new_price">
-            $80 <span>$120</span>
+            $80 <span className="old_price">$120</span>
           </p>
         </div>
       </div>

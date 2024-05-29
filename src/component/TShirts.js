@@ -20,56 +20,56 @@ function TShirts() {
             <img src={m1} alt="m1" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={m2} alt="m2" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={w3} alt="w3" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_women_product">
             <img src={w4} alt="w4" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={m5} alt="m5" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={m6} alt="m6" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={k7} alt="k7" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
           <div className="single_men_product">
             <img src={k6} alt="k6" />
             <p>Good Quality Product</p>
             <p className="new_price">
-              $80 <span>$120</span>
+              $80 <span className="old_price">$120</span>
             </p>
           </div>
         </div>
